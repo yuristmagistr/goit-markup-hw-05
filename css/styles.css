@@ -589,7 +589,8 @@ padding-bottom: 100px;
     border-radius: 4px; 
     border: 1px solid rgba(255, 255, 255, 1);
     background-color: transparent;
-    box-shadow: 0px 4px 4px 0px #00000026;
+    /* box-shadow: 0px 4px 4px 0px #00000026; */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
     color: rgba(255, 255, 255, 1);
     outline: none;
@@ -848,7 +849,7 @@ padding-bottom: 100px;
 }
 
 .span {
-    display: inline-flex;
+    /* display: inline-flex; */
 }
 
 .check-text a {
@@ -862,7 +863,7 @@ padding-bottom: 100px;
 }
 
 .check-text span {
-    /* display: inline-flex; */
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px; 
@@ -907,7 +908,7 @@ padding-bottom: 100px;
     margin: 0 auto;
     min-width: 169px;
     height: 56px;
-    margin-top: 24px;
+    /* margin-top: 24px; */
     margin-bottom: 24px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
