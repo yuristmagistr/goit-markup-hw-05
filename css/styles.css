@@ -793,13 +793,21 @@ padding-bottom: 100px;
     height: 120px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding-top: 8px;
-    padding-left: 16px;
+    padding: 8px 16px;
     /* border-color: inherit; */
+    background-color: transparent;
     outline: transparent;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     resize: none;
     font-size: 0.75rem;
+
+    color: rgba(46, 47, 66, 0.40);
+    font-family: Roboto;
+    font-size: 0.75rem;
+    line-height: 1.17;
+    /* 116.667% */
+    etter-spacing: 0.04rem;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-user-text:focus {
@@ -807,14 +815,14 @@ padding-bottom: 100px;
 }
 
 .modal-user-text ::placeholder {
-    color: rgba(46, 47, 66, 0.40);
+    /* color: rgba(46, 47, 66, 0.40);
     font-family: Roboto;
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.17;
     /* 116.667% */
-    letter-spacing: 0.03rem;
+    letter-spacing: 0.04rem; */
 }
 
 .check-input {}
