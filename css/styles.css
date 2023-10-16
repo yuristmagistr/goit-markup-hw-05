@@ -849,7 +849,7 @@ padding-bottom: 100px;
 }
 
 .span {
-    /* display: inline-flex; */
+    display: inline-flex;
 }
 
 .check-text a {
@@ -863,7 +863,7 @@ padding-bottom: 100px;
 }
 
 .check-text span {
-    display: inline-flex;
+    /* display: inline-flex; */
     align-items: center;
     justify-content: center;
     width: 16px; 
